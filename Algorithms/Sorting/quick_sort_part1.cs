@@ -3,13 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 class Solution { 
     
-    public static void swap(int [] ar, int i, int j) 
-    {
-        int temp = ar[i]; 
-        ar[i] = ar[j]; 
-        ar[j] = temp; 
-        return; 
-    } 
     
 public static void partition(int[] ar) {
     

@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+class Solution {
+    static void Main(String[] args) {
+
+        int num_cases; 
+        num_cases = int.Parse(Console.ReadLine()); 
+        int [] string_num = new int[100]; 
+        for(int i = 0; i < 100; i++) 
+        {
+            string_num[i] = 0; 
+        }
+        string [] string_int = Console.ReadLine().Split(' '); 
+        for(int i = 0; i < num_cases; i++) 
+        {
+            int temp = int.Parse(string_int[i]); 
+            string_num[temp]++; 
+        } 
+        foreach(int element in string_num) 
+            Console.Write(element + " "); 
+        return; 
+        
+    } 
+} 

@@ -12,7 +12,6 @@ vector<int> parseInts(string str) {
         { vect.push_back(value); 
          ss >> ch; } 
     return vect; 
-   // Complete this function
 }
 
 int main() {

@@ -19,7 +19,7 @@ double calculate_median(vector<int> vec)
 }
 
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+  
     int num_val, temp, q_1, q_2, q_3; 
     vector<int> values; 
     vector<int> first_vec, second_vec; 

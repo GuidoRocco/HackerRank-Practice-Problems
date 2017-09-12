@@ -1,3 +1,8 @@
+/* 
+The error function is taken from this website: http://introcs.cs.princeton.edu/java/21function/ErrorFunction.java.html 
+The source code was originally in Java, but I converted it in C++. 
+*/ 
+
 #include <cmath>
 #include <cstdio>
 #include <vector>
